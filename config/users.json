@@ -1,0 +1,31 @@
+{
+  "systemAdmins": [
+    {
+      "id": "demo_admin",
+      "username": "demo",
+      "password": "Demo2026!",
+      "fullName": "مدير النسخة التجريبية",
+      "role": "system_admin",
+      "email": "",
+      "permissions": [
+        "system_settings",
+        "user_management",
+        "file_management",
+        "system_diagnostics",
+        "backup_restore"
+      ],
+      "created": "2026-10-18T00:00:00.000Z",
+      "lastLogin": null,
+      "isActive": true,
+      "loginAttempts": 0,
+      "lastLoginAttempt": null
+    }
+  ],
+  "settings": {
+    "maxLoginAttempts": 3,
+    "lockoutDuration": 900000,
+    "sessionTimeout": 3600000,
+    "requirePasswordChange": false,
+    "passwordMinLength": 6
+  }
+}
